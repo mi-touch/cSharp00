@@ -1,0 +1,13 @@
+C:\Users\Oluwatimilehin\Documents\learnFromHome\bin\Debug\netcoreapp3.1\learnFromHome.exe
+C:\Users\Oluwatimilehin\Documents\learnFromHome\bin\Debug\netcoreapp3.1\learnFromHome.deps.json
+C:\Users\Oluwatimilehin\Documents\learnFromHome\bin\Debug\netcoreapp3.1\learnFromHome.runtimeconfig.json
+C:\Users\Oluwatimilehin\Documents\learnFromHome\bin\Debug\netcoreapp3.1\learnFromHome.runtimeconfig.dev.json
+C:\Users\Oluwatimilehin\Documents\learnFromHome\bin\Debug\netcoreapp3.1\learnFromHome.dll
+C:\Users\Oluwatimilehin\Documents\learnFromHome\bin\Debug\netcoreapp3.1\learnFromHome.pdb
+C:\Users\Oluwatimilehin\Documents\learnFromHome\obj\Debug\netcoreapp3.1\learnFromHome.csprojAssemblyReference.cache
+C:\Users\Oluwatimilehin\Documents\learnFromHome\obj\Debug\netcoreapp3.1\learnFromHome.csproj.CoreCompileInputs.cache
+C:\Users\Oluwatimilehin\Documents\learnFromHome\obj\Debug\netcoreapp3.1\learnFromHome.AssemblyInfoInputs.cache
+C:\Users\Oluwatimilehin\Documents\learnFromHome\obj\Debug\netcoreapp3.1\learnFromHome.AssemblyInfo.cs
+C:\Users\Oluwatimilehin\Documents\learnFromHome\obj\Debug\netcoreapp3.1\learnFromHome.dll
+C:\Users\Oluwatimilehin\Documents\learnFromHome\obj\Debug\netcoreapp3.1\learnFromHome.pdb
+C:\Users\Oluwatimilehin\Documents\learnFromHome\obj\Debug\netcoreapp3.1\learnFromHome.genruntimeconfig.cache
