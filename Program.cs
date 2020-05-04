@@ -34,8 +34,9 @@ namespace learnFromHome
             {
                 Console.WriteLine("The values of x1 and x2 are imaginary or no solution ");
             }
+            Console.WriteLine(" ");
 
-            // Assignment 2
+            // // Assignment 2
             Console.Write("Assignment 2.");
             Console.WriteLine(" This program convert Fahrenheit to celsius");
             // Declaring variables
@@ -46,28 +47,35 @@ namespace learnFromHome
             // calculating the value of celsius 
             cel = 5.0 / 9.0 * ( fahrenheit - 32.0);
             Console.WriteLine("The value of fahrenheit: {0}, is equivalent to celsius of: {1}", fahrenheit,cel);
+            Console.WriteLine(" ");
 
-            // Assignment 3
+            // // Assignment 3
+            // This program check if user input is a palindrome
             Console.Write("Assignment 3.");
             Console.WriteLine(" This program check if a user input is a palindrome");
-
-            // The program calculate the time delay for a person to talk to someone on Mars
             // Declaring of variables
-            double distance;
-            double velocityRate;
-            double timeInSeconds;
-            double timeInMinutes;
-
-            // Computes the time it take for the signal to reach Mars
-            distance = 34000000;
-            velocityRate = 186000;
-            timeInSeconds = distance / velocityRate;
-            Console.WriteLine("The time it take the signal to reach the Mars is: {0} " + "seconds", timeInSeconds);
-            Console.WriteLine("The time in 4.d.p is: {0:#.####} seconds", timeInSeconds);
-            timeInMinutes = timeInSeconds / 60;
-            Console.WriteLine("The time it take the signal to reach the Mars is: {0} minutes ", timeInMinutes);
-            Console.WriteLine("The time in 4.d.p is: {0:#.####} " + "minutes", timeInMinutes);
-
+            int userInput, remainder, n;
+            int isPalin = 0;
+            Console.Write("Enter an integer: ");
+            userInput = Convert.ToInt32(Console.ReadLine());
+            n = userInput;
+            // Compute the input integer
+            while (n != 0)
+            {
+                remainder = n % 10;
+                isPalin = isPalin * 10 + remainder; 
+                n /= 10;
+            }
+            // This check if the user input is a palindrome
+            if (isPalin == userInput)
+            {
+                Console.WriteLine("The inputed number: {0}, is a palindrome.", isPalin);
+            }
+            else
+            {
+                Console.WriteLine("The inputed number: {0}, is not a palindrome.", isPalin);
+            }
+            
         }
     }
 }
