@@ -73,8 +73,8 @@ namespace learnFromHome
             }
             
         }
-    static double ConvertTemperatureToCelsius(double fahranheitF){
-        double celsiusF = (fahranheitF - 32)* 5/9;
+    static double ConvertTemperatureToCelsius(double fahrenheitF){
+        double celsiusF = (fahrenheitF - 32)* 5/9;
         return celsiusF;
     }
     }
