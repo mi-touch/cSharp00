@@ -39,15 +39,11 @@ namespace learnFromHome
             // // Assignment 2
             Console.Write("Assignment 2.");
             Console.WriteLine(" This program convert Fahrenheit to celsius");
-            // Declaring variables
-            double fahrenheit; 
-            double cel;
-            //  Declaring the value of fahrenheit
-            fahrenheit = 79.0;
-            // calculating the value of celsius 
-            cel = 5.0 / 9.0 * ( fahrenheit - 32.0);
-            Console.WriteLine("The value of fahrenheit: {0}, is equivalent to celsius of: {1}", fahrenheit,cel);
-            Console.WriteLine(" ");
+            // User input
+            Console.Write("Enter the Fahranheit value to covert: ");
+            double Fahrenheit = double.Parse(Console.ReadLine());
+            double result = ConvertTemperatureToCelsius(Fahrenheit);
+            Console.WriteLine("The Fahranheit equvalent of the value is: {0:##.###} ",result);
 
             // // Assignment 3
             // This program check if user input is a palindrome
@@ -77,6 +73,10 @@ namespace learnFromHome
             }
             
         }
+    static double ConvertTemperatureToCelsius(double fahranheitF){
+        double celsiusF = (fahranheitF - 32)* 5/9;
+        return celsiusF;
+    }
     }
 }
 
